@@ -1,0 +1,30 @@
+#Program to create a list
+
+
+# A list can contain numbers, strings, vectors, data frames and even other lists inside it.
+
+Name = c("Harry", "Ron", "Richard", "James", "Danny")
+RollNo = c(15, 20, 23, 34, 42) 
+Age = c(19, 17, 20, 18, 19)  
+a = data.frame(Name, RollNo, Age) 
+
+myList = list(07, "Gary", a) 
+# Here myList is holding data including Numeric value, Characters and a Data Frame 
+print(myList)
+
+
+OUTPUT-
+
+[[1]]
+[1] 7
+
+[[2]]
+[1] "Gary"
+
+[[3]]
+     Name RollNo Age
+1   Harry     15  19
+2     Ron     20  17
+3 Richard     23  20
+4   James     34  18
+5   Danny     42  19

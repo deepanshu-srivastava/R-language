@@ -11,7 +11,7 @@ print(a-b)
 print(a*b) 
 print(a/b)
 
-#following are the outputs you will get.
+OUTPUTS-
 [1] 20
 [1] -10
 [1] 75

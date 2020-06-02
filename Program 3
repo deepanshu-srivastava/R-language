@@ -1,0 +1,16 @@
+#Program to find the datatype of a data element
+
+# class() is used for knowing the data type of the value stored in a variable. 
+a = 99.9 
+b = "R Programming" 
+c = as.integer(25) 
+# To store an integer variable we've to use 'as.integer function' 
+class(a) 
+class(b) 
+class(c)
+
+OUTPUTS :-
+[1] "numeric" 
+[1] "character"
+[1] "integer"
+

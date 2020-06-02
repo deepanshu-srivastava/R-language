@@ -1,0 +1,14 @@
+#Program to find the length of a Vector
+
+# 'length()' is a function which used to find the number of elements stored inside a vector 
+a = c(1:10) 
+length(a) 
+
+b = c(110:200) 
+length(b)
+
+OUTPUT-
+
+[1] 10
+
+[1] 91

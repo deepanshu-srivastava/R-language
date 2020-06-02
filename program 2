@@ -1,0 +1,18 @@
+#Program to implement mathematical operators
+
+
+# Assigning integer type values to variables 
+a = 5
+b = 15 
+
+# Applying all operations 
+print(a+b) 
+print(a-b) 
+print(a*b) 
+print(a/b)
+
+#following are the outputs you will get.
+[1] 20
+[1] -10
+[1] 75
+[1] 0.3333333

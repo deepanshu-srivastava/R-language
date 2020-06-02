@@ -1,0 +1,13 @@
+#Program to create a matrix
+
+# matrix() is used for creating matrices 
+a = matrix(1:9, nrow = 3) 
+# Here 1:9 are the elements between 1 and 9 where number of rows are 3 
+print(a)
+
+OUTPUT-
+
+     [,1] [,2] [,3]
+[1,]    1    4    7
+[2,]    2    5    8
+[3,]    3    6    9

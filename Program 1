@@ -8,5 +8,7 @@ s = "Hello World"
 print(s) 
 # Here print() is a function which will print the value stored inside ‘s’ on screen. 
 
+OUTPUT-
+
 [1] "Hello World" 
-# This is the output you will get.
+

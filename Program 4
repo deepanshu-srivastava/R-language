@@ -1,0 +1,31 @@
+#Program to implement Operators
+
+"R" == "r" 
+"R" == "R" 
+# Here == means 'is equals to' 
+# Here R is not equals to r, that's why it is false 
+# and R is equals to R, that's why it is true 
+
+"R" != "r" 
+# Here != means 'is not equals to' 
+# Here R is not equals to r, that's why it is true 
+
+20 >= 30
+# Here >= means 'greator than and equals to ' 
+# Here 20 is not greator than 30, that's why it is false 
+
+20 <= 30 
+# Here <= means 'lesser than and equals to ' 
+# Here 20 is lesser than 30, that's why it is true
+
+OUTPUT-
+[1] FALSE
+
+[1] TRUE
+ 
+[1] TRUE
+ 
+[1] FALSE
+
+[1] TRUE
+

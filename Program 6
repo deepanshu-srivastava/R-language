@@ -1,0 +1,33 @@
+#Program to perform mathematical operation on two vectors
+
+
+a = c(1:5) 
+# First Vector containing elements between 1 to 10 
+b = c(6:10) 
+# Second Vector containing elements between 11 to 20 
+
+c = a+b 
+# Adding both vectors 
+print(c) 
+
+d = a-b 
+# Subtracting both vectors 
+print(d) 
+
+e = a*b 
+# Multiplying both vectors 
+print(e) 
+
+f = a/b 
+# Dividing both vectors 
+print(f)
+
+OUTPUT-
+
+[1]  7  9 11 13 15
+
+[1] -5 -5 -5 -5 -5
+
+[1]  6 14 24 36 50
+
+[1] 0.1666667 0.2857143 0.3750000 0.4444444 0.5000000

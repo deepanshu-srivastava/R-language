@@ -1,0 +1,23 @@
+#Program to implement a Data Frame
+
+
+# Data Frames consists of rows and columns just like an Excel Sheet 
+# Here we have 3 vectors 
+Name = c("Harry", "Ron", "Richard", "James", "Danny") 
+RollNo = c(15, 20, 23, 34, 42) 
+Age = c(19, 17, 20, 18, 19) 
+
+# Variable 'a' holds the value of data frame in an order 
+a = data.frame(Name, RollNo, Age) 
+
+# Printing the data frame 
+print(a)
+
+OUTPUT-
+
+     Name RollNo Age
+1   Harry     15  19
+2     Ron     20  17
+3 Richard     23  20
+4   James     34  18
+5   Danny     42  19

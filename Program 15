@@ -1,0 +1,41 @@
+#Program to perform mathematics operations on matrix 
+
+
+# First Matrix 
+a = matrix(1:9, nrow = 3) 
+
+# Second Matrix 
+b = matrix(11:19, nrow = 3) 
+print(a) 
+print(b) 
+
+# Adding both matrices
+print(a+b)
+
+# Multipying both matrices 
+print(a*b)
+
+OUTPUT-
+
+     [,1] [,2] [,3]
+[1,]    1    4    7
+[2,]    2    5    8
+[3,]    3    6    9
+
+
+     [,1] [,2] [,3]
+[1,]   11   14   17
+[2,]   12   15   18
+[3,]   13   16   19
+
+
+     [,1] [,2] [,3]
+[1,]   12   18   24
+[2,]   14   20   26
+[3,]   16   22   28
+
+
+     [,1] [,2] [,3]
+[1,]   11   56  119
+[2,]   24   75  144
+[3,]   39   96  171

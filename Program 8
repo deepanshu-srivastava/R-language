@@ -1,0 +1,9 @@
+#Program to select an element from a vector
+
+a = c(1,3,6,5,9,10) 
+a[4] 
+# Here value written inside square brackets will be returned which is stored inside a vector at number 4.
+
+OUTPUT-
+
+[1] 5

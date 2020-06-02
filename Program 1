@@ -1,0 +1,12 @@
+#Program to print Hello World
+
+
+
+s = "Hello World" 
+# Here ‘s’ is assigned a string value which is ‘Hello World’. 
+
+print(s) 
+# Here print() is a function which will print the value stored inside ‘s’ on screen. 
+
+[1] "Hello World" 
+# This is the output you will get.

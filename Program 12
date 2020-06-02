@@ -1,0 +1,28 @@
+#Program to access only specified row elements in a Data Frame
+
+
+Name = c("Harry", "Ron", "Richard", "James", "Danny")
+RollNo = c(15, 20, 23, 34, 42) 
+Age = c(19, 17, 20, 18, 19) 
+
+a = data.frame(Name, RollNo, Age) 
+print(a) 
+
+a[1:3, ] 
+# Here 1:3 is first 3 elements of first column that is 'Name' 
+# The value after comma is left blank so that all the elements of the row will be printed on screen
+
+
+OUTPUT-
+
+     Name RollNo Age
+1   Harry     15  19
+2     Ron     20  17
+3 Richard     23  20
+4   James     34  18
+5   Danny     42  19
+
+     Name RollNo Age
+1   Harry     15  19
+2     Ron     20  17
+3 Richard     23  20

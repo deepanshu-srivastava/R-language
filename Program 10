@@ -1,0 +1,30 @@
+#Program to find the number of rows & columns present in a Data Frame
+
+
+Name = c("Harry", "Ron", "Richard", "James", "Danny")
+RollNo = c(15, 20, 23, 34, 42) 
+Age = c(19, 17, 20, 18, 19) 
+
+
+a = data.frame(Name, RollNo, Age) 
+print(a) 
+
+nrow(a) 
+# nrow() stands for number of rows 
+
+ncol(a) 
+# ncol() stands for number of columns
+
+
+OUTPUT-
+
+     Name RollNo Age
+1   Harry     15  19
+2     Ron     20  17
+3 Richard     23  20
+4   James     34  18
+5   Danny     42  19
+
+[1] 5
+
+[1] 3

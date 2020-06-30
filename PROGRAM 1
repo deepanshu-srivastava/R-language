@@ -1,0 +1,14 @@
+#TO FIND MEAN OF A NUMBERS
+
+
+CODE :-
+
+# Create a vector. 
+x <- c(2,27,36,4.2,18,44,-21,8,-5)
+# Find Mean.
+result.mean <- mean(x)
+print(result.mean)	
+
+OUTPUT :-
+
+[1] 12.57778
